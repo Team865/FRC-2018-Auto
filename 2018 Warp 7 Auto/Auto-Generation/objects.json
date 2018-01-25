@@ -1,0 +1,4 @@
+{
+	"(BlueCube)(\d+)": {"moveable":True,"state": 0, "state_colour":[(255,106,0),(255,0,0)]},
+	"(RedCube)(\d+)": {"moveable":True,"state": 0, "state_colour":[(255,106,0),(255,0,0)]}
+}

@@ -1,0 +1,8 @@
+{
+	"paths": {
+		"BUILD": "BUILD",
+		"directoryGame": "BUILD+/Auto",
+		"directoryElements": "directoryGame+/Elements",
+		"directoryConfig": "directoryGame+/Config"
+		}
+}
