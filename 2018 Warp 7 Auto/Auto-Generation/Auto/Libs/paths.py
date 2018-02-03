@@ -3,6 +3,13 @@ import pygame
 import matplotlib.pyplot as plt
 from scipy import interpolate
 
+def line(x,x2,fun):
+	b = fun(x)
+	m = fun.derivative(1)
+	drivatve = m(x)
+	y = drivatve*x2+b
+	return y
+
 def pixel(surface, color, pos):
     surface.fill(color, (pos, (5, 5)))
 
@@ -21,7 +28,7 @@ class Path:
 		
 		if self.showg:
 			xp = np.linspace(0, len(self.points)-1)
-			_ = plt.plot(xp, self.calculated[0](xp), '-', xp, self.calculated[1](xp), '--')
+			_ = plt.plot(xp, self.calculated[0](xp), '-',xp, self.calculated[1](xp), '--')
 			plt.ylim(0,2000)
 			plt.show()
 			plt.gcf().clear()
@@ -33,6 +40,15 @@ class Path:
 		while z<m:
 			pointX = self.calculated[0](z)
 			pointY =  self.calculated[1](z)
+			a = line(2.5,z,self.calculated[0])
+			b = line(2.5,z,self.calculated[1])
+			a2 = line(2.5,z*-1,self.calculated[0])
+			b2 = line(2.5,z*-1,self.calculated[1])
+			try:
+				pixel(screen,self.lineColour,(a,b))
+				pixel(screen,self.lineColour,(a2,b2))
+			except ValueError:
+				pass
 			pixel(screen,self.lineColour,(pointX,pointY))
 			z += n
 	
@@ -48,10 +64,12 @@ class Path:
 		num = len(self.points)
 		n = range(0,num)
 		num *= 5
-		#x = np.poly1d(np.polyfit(n, x, num))
-		#y = np.poly1d(np.polyfit(n, y, num))
+		# x = np.poly1d(np.polyfit(n, x, num))
+		# y = np.poly1d(np.polyfit(n, y, num))
 		x = interpolate.Akima1DInterpolator(n,x)
 		y = interpolate.Akima1DInterpolator(n,y)
+		# x = interpolate.CubicSpline(n,x)
+		# y = interpolate.CubicSpline(n,y)
 		
 		self.calculated = (x,y)
 	
