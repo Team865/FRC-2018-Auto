@@ -1,0 +1,87 @@
+{
+    "data": [
+        {
+            "distance": 0.0,
+            "methods": [
+                {
+                    "args": [
+                        "hello",
+                        "world"
+                    ],
+                    "name": "print"
+                }
+            ],
+            "point": [
+                1286,
+                215
+            ]
+        },
+        {
+            "distance": 394.0203040453626,
+            "methods": [
+                {
+                    "args": [
+                        "hello",
+                        "world"
+                    ],
+                    "name": "print"
+                }
+            ],
+            "point": [
+                1282,
+                609
+            ]
+        },
+        {
+            "distance": 143.0314650697531,
+            "methods": [
+                {
+                    "args": [
+                        "hello",
+                        "world"
+                    ],
+                    "name": "print"
+                }
+            ],
+            "point": [
+                1139,
+                606
+            ]
+        },
+        {
+            "distance": 389.0,
+            "methods": [
+                {
+                    "args": [
+                        "hello",
+                        "world"
+                    ],
+                    "name": "print"
+                }
+            ],
+            "point": [
+                1139,
+                217
+            ]
+        },
+        {
+            "distance": 147.00340132119393,
+            "methods": [
+                {
+                    "args": [
+                        "hello",
+                        "world"
+                    ],
+                    "name": "print"
+                }
+            ],
+            "point": [
+                1286,
+                216
+            ]
+        }
+    ],
+    "description": "describes the auto",
+    "sides": "LLL",
+    "totalDistance": 1073.0551704363097
+}

@@ -2,6 +2,8 @@ import numpy as np
 import pygame
 import matplotlib.pyplot as plt
 from scipy import interpolate
+import json
+from math import hypot
 
 def line(x,x2,fun):
 	b = fun(x)
@@ -40,15 +42,6 @@ class Path:
 		while z<m:
 			pointX = self.calculated[0](z)
 			pointY =  self.calculated[1](z)
-			a = line(2.5,z,self.calculated[0])
-			b = line(2.5,z,self.calculated[1])
-			a2 = line(2.5,z*-1,self.calculated[0])
-			b2 = line(2.5,z*-1,self.calculated[1])
-			try:
-				pixel(screen,self.lineColour,(a,b))
-				pixel(screen,self.lineColour,(a2,b2))
-			except ValueError:
-				pass
 			pixel(screen,self.lineColour,(pointX,pointY))
 			z += n
 	
@@ -64,12 +57,8 @@ class Path:
 		num = len(self.points)
 		n = range(0,num)
 		num *= 5
-		# x = np.poly1d(np.polyfit(n, x, num))
-		# y = np.poly1d(np.polyfit(n, y, num))
 		x = interpolate.Akima1DInterpolator(n,x)
 		y = interpolate.Akima1DInterpolator(n,y)
-		# x = interpolate.CubicSpline(n,x)
-		# y = interpolate.CubicSpline(n,y)
 		
 		self.calculated = (x,y)
 	
@@ -83,6 +72,43 @@ class Path:
 				return point
 		
 		return None 
+	
+	def exportPath(self, fName):
+		data = []
+		totalDistance=0.0;
+		n = 1/1000000
+		lastX=self.calculated[0](0)
+		lastY=self.calculated[1](0)
+		for i in range(len(self.points)):
+			point = self.points[i]
+			pointData = {"point": point.cords}
+			z=0
+			distance=0.0
+			while True:
+				pointX = self.calculated[0](z+i)
+				pointY =  self.calculated[1](z+i)
+				distance += hypot(pointX-lastX,pointY-lastY)
+				lastX = pointX
+				lastY = pointY
+				z += n
+				if z<i+1:
+					break
+			
+			pointData["distance"] = distance
+			totalDistance += distance
+			pointData["methods"] = [
+				{"name":"print",
+					"args":[
+					   "hello",
+					   "world"
+					]
+				}
+			]
+			data.append(pointData)
+		
+		exportedPath = {"data": data, "description": "describes the auto", "sides": "LLL", "totalDistance":totalDistance}
+		with open(fName, 'w') as f:
+			f.write(json.dumps(exportedPath, sort_keys=True, indent=4))
 		
 class Point:
 	def __init__(self,cords,size,path):

@@ -223,6 +223,8 @@ def main():
 						b.showg = True
 					elif e.key == pygame.K_n:	
 						b.addPoint(pygame.mouse.get_pos())
+					elif e.key == pygame.K_x:	
+						b.exportPath("ExportedPath.json")
 				
 	except StopIteration:
 		pass
