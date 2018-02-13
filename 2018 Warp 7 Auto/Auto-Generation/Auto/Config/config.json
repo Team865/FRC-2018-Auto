@@ -1,1 +1,1020 @@
-{"BlueCube1": {"moveable": true, "size": [39, 39], "src": "Elements//BlueCube1.png", "state_colour": [[252, 221, 4], [255, 106, 0], [255, 0, 0]], "state": 0, "layer": 17, "cords": [1103, 212]}, "RedCube6": {"moveable": true, "size": [39, 39], "src": "Elements//RedCube6.png", "state_colour": [[252, 218, 4], [255, 106, 0], [255, 0, 0]], "state": 0, "layer": 28, "cords": [494, 572]}, "RedSwitchZone": {"moveable": false, "size": [161, 351], "src": "Elements//RedSwitchZone.png", "state_colour": [[124, 252, 252]], "state": 0, "layer": 4, "cords": [494, 236]}, "SwitchBlue": {"moveable": false, "size": [151, 399], "src": "Elements//SwitchBlue.png", "state_colour": [[4, 124, 12]], "state": 0, "layer": 6, "cords": [1137, 212]}, "BlueCube4": {"moveable": true, "size": [39, 39], "src": "Elements//BlueCube4.png", "state_colour": [[252, 221, 4], [255, 106, 0], [255, 0, 0]], "state": 0, "layer": 21, "cords": [1103, 431]}, "BlueCube11": {"moveable": true, "size": [39, 39], "src": "Elements//BlueCube11.png", "state_colour": [[252, 221, 4], [255, 106, 0], [255, 0, 0]], "state": 0, "layer": 33, "cords": [1283, 426]}, "RedStack": {"moveable": false, "size": [117, 127], "src": "Elements//RedStack.png", "state_colour": [[124, 252, 252]], "state": 0, "layer": 14, "cords": [236, 348]}, "RedTerritory": {"moveable": false, "size": [309, 823], "src": "Elements//RedTerritory.png", "state_colour": [[4, 20, 124]], "state": 0, "layer": 12, "cords": [0, 0]}, "BlueCube9": {"moveable": true, "size": [39, 39], "src": "Elements//BlueCube9.png", "state_colour": [[252, 218, 4], [255, 106, 0], [255, 0, 0]], "state": 0, "layer": 31, "cords": [1317, 373]}, "BlueCube15": {"moveable": true, "size": [39, 39], "src": "Elements//BlueCube15.png", "state_colour": [[252, 221, 4], [255, 106, 0], [255, 0, 0]], "state": 0, "layer": 37, "cords": [1317, 392]}, "BlueCube6": {"moveable": true, "size": [39, 39], "src": "Elements//BlueCube6.png", "state_colour": [[252, 218, 4], [255, 106, 0], [255, 0, 0]], "state": 0, "layer": 19, "cords": [1103, 572]}, "RedPlatform": {"moveable": false, "size": [107, 351], "src": "Elements//RedPlatform.png", "state_colour": [[4, 36, 252]], "state": 0, "layer": 10, "cords": [650, 236]}, "RedCube1": {"moveable": true, "size": [39, 39], "src": "Elements//RedCube1.png", "state_colour": [[252, 220, 4], [255, 106, 0], [255, 0, 0]], "state": 0, "layer": 23, "cords": [494, 212]}, "BlueTerritory": {"moveable": false, "size": [309, 823], "src": "Elements//BlueTerritory.png", "state_colour": [[4, 20, 124]], "state": 0, "layer": 11, "cords": [1327, 0]}, "RedCube4": {"moveable": true, "size": [39, 39], "src": "Elements//RedCube4.png", "state_colour": [[252, 220, 4], [255, 106, 0], [255, 0, 0]], "state": 0, "layer": 26, "cords": [494, 431]}, "Scale": {"moveable": false, "size": [132, 467], "src": "Elements//Scale.png", "state_colour": [[4, 124, 12]], "state": 0, "layer": 8, "cords": [752, 178]}, "BlueCube10": {"moveable": true, "size": [39, 39], "src": "Elements//BlueCube10.png", "state_colour": [[252, 221, 4], [255, 106, 0], [255, 0, 0]], "state": 0, "layer": 32, "cords": [1283, 358]}, "BlueStack": {"moveable": false, "size": [116, 127], "src": "Elements//BlueStack.png", "state_colour": [[124, 252, 252]], "state": 0, "layer": 16, "cords": [1284, 348]}, "RedCube2": {"moveable": true, "size": [39, 39], "src": "Elements//RedCube2.png", "state_colour": [[252, 218, 4], [255, 106, 0], [255, 0, 0]], "state": 0, "layer": 24, "cords": [494, 290]}, "RedCube3": {"moveable": true, "size": [39, 39], "src": "Elements//RedCube3.png", "state_colour": [[252, 220, 4], [255, 106, 0], [255, 0, 0]], "state": 0, "layer": 25, "cords": [494, 358]}, "BlueCube12": {"moveable": true, "size": [39, 39], "src": "Elements//BlueCube12.png", "state_colour": [[252, 221, 4], [255, 106, 0], [255, 0, 0]], "state": 0, "layer": 34, "cords": [1283, 392]}, "SwitchRed": {"moveable": false, "size": [151, 399], "src": "Elements//SwitchRed.png", "state_colour": [[4, 124, 12]], "state": 0, "layer": 7, "cords": [348, 212]}, "BlueCube8": {"moveable": true, "size": [39, 39], "src": "Elements//BlueCube8.png", "state_colour": [[252, 218, 4], [255, 106, 0], [255, 0, 0]], "state": 0, "layer": 30, "cords": [1317, 407]}, "BlueCube7": {"moveable": true, "size": [39, 39], "src": "Elements//BlueCube7.png", "state_colour": [[252, 220, 4], [255, 106, 0], [255, 0, 0]], "state": 0, "layer": 29, "cords": [1351, 392]}, "Background": {"moveable": false, "size": [1636, 823], "src": "Elements//Background.png", "state_colour": [[132, 132, 140]], "state": 0, "layer": 1, "cords": [0, 0]}, "BlueExchangeZone": {"moveable": false, "size": [95, 136], "src": "Elements//BlueExchangeZone.png", "state_colour": [[252, 4, 220]], "state": 0, "layer": 15, "cords": [1541, 436]}, "BlueCube13": {"moveable": true, "size": [39, 38], "src": "Elements//BlueCube13.png", "state_colour": [[252, 218, 4], [255, 106, 0], [255, 0, 0]], "state": 0, "layer": 35, "cords": [1283, 412]}, "BlueCube2": {"moveable": true, "size": [39, 39], "src": "Elements//BlueCube2.png", "state_colour": [[252, 218, 4], [255, 106, 0], [255, 0, 0]], "state": 0, "layer": 18, "cords": [1103, 290]}, "NullLand": {"moveable": false, "size": [190, 823], "src": "Elements//NullLand.png", "state_colour": [[180, 4, 252]], "state": 0, "layer": 5, "cords": [723, 0]}, "BlueSwitchZone": {"moveable": false, "size": [160, 350], "src": "Elements//BlueSwitchZone.png", "state_colour": [[124, 252, 252]], "state": 0, "layer": 3, "cords": [981, 236]}, "BlueCube5": {"moveable": true, "size": [39, 39], "src": "Elements//BlueCube5.png", "state_colour": [[252, 218, 4], [255, 106, 0], [255, 0, 0]], "state": 0, "layer": 20, "cords": [1103, 499]}, "BlueCube14": {"moveable": true, "size": [39, 39], "src": "Elements//BlueCube14.png", "state_colour": [[252, 221, 4], [255, 106, 0], [255, 0, 0]], "state": 0, "layer": 36, "cords": [1283, 392]}, "BlueCube16": {"moveable": true, "size": [39, 39], "src": "Elements//BlueCube16.png", "state_colour": [[252, 219, 4], [255, 106, 0], [255, 0, 0]], "state": 0, "layer": 38, "cords": [1283, 373]}, "NeutralZone": {"moveable": false, "size": [1027, 823], "src": "Elements//NeutralZone.png", "state_colour": [[132, 132, 140]], "state": 0, "layer": 2, "cords": [304, 0]}, "RedExchangeZone": {"moveable": false, "size": [95, 136], "src": "Elements//RedExchangeZone.png", "state_colour": [[252, 4, 220]], "state": 0, "layer": 13, "cords": [0, 251]}, "BlueCube3": {"moveable": true, "size": [39, 39], "src": "Elements//BlueCube3.png", "state_colour": [[252, 221, 4], [255, 106, 0], [255, 0, 0]], "state": 0, "layer": 22, "cords": [1103, 358]}, "RedCube5": {"moveable": true, "size": [39, 39], "src": "Elements//RedCube5.png", "state_colour": [[252, 218, 4], [255, 106, 0], [255, 0, 0]], "state": 0, "layer": 27, "cords": [494, 499]}, "BluePlatform": {"moveable": false, "size": [107, 351], "src": "Elements//BluePlatform.png", "state_colour": [[4, 36, 252]], "state": 0, "layer": 9, "cords": [879, 236]}}
+{
+    "Background": {
+        "cords": [
+            0,
+            0
+        ],
+        "layer": 1,
+        "moveable": false,
+        "size": [
+            1636,
+            823
+        ],
+        "src": "Elements//Background.png",
+        "state": 0,
+        "state_colour": [
+            [
+                132,
+                132,
+                140
+            ]
+        ]
+    },
+    "BlueCube1": {
+        "cords": [
+            1103,
+            212
+        ],
+        "layer": 17,
+        "moveable": true,
+        "size": [
+            39,
+            39
+        ],
+        "src": "Elements//BlueCube1.png",
+        "state": 0,
+        "state_colour": [
+            [
+                252,
+                221,
+                4
+            ],
+            [
+                255,
+                106,
+                0
+            ],
+            [
+                255,
+                0,
+                0
+            ]
+        ]
+    },
+    "BlueCube10": {
+        "cords": [
+            1283,
+            358
+        ],
+        "layer": 32,
+        "moveable": true,
+        "size": [
+            39,
+            39
+        ],
+        "src": "Elements//BlueCube10.png",
+        "state": 0,
+        "state_colour": [
+            [
+                252,
+                221,
+                4
+            ],
+            [
+                255,
+                106,
+                0
+            ],
+            [
+                255,
+                0,
+                0
+            ]
+        ]
+    },
+    "BlueCube11": {
+        "cords": [
+            1283,
+            426
+        ],
+        "layer": 33,
+        "moveable": true,
+        "size": [
+            39,
+            39
+        ],
+        "src": "Elements//BlueCube11.png",
+        "state": 0,
+        "state_colour": [
+            [
+                252,
+                221,
+                4
+            ],
+            [
+                255,
+                106,
+                0
+            ],
+            [
+                255,
+                0,
+                0
+            ]
+        ]
+    },
+    "BlueCube12": {
+        "cords": [
+            1283,
+            392
+        ],
+        "layer": 34,
+        "moveable": true,
+        "size": [
+            39,
+            39
+        ],
+        "src": "Elements//BlueCube12.png",
+        "state": 0,
+        "state_colour": [
+            [
+                252,
+                221,
+                4
+            ],
+            [
+                255,
+                106,
+                0
+            ],
+            [
+                255,
+                0,
+                0
+            ]
+        ]
+    },
+    "BlueCube13": {
+        "cords": [
+            1283,
+            412
+        ],
+        "layer": 35,
+        "moveable": true,
+        "size": [
+            39,
+            38
+        ],
+        "src": "Elements//BlueCube13.png",
+        "state": 0,
+        "state_colour": [
+            [
+                252,
+                218,
+                4
+            ],
+            [
+                255,
+                106,
+                0
+            ],
+            [
+                255,
+                0,
+                0
+            ]
+        ]
+    },
+    "BlueCube14": {
+        "cords": [
+            1283,
+            392
+        ],
+        "layer": 36,
+        "moveable": true,
+        "size": [
+            39,
+            39
+        ],
+        "src": "Elements//BlueCube14.png",
+        "state": 0,
+        "state_colour": [
+            [
+                252,
+                221,
+                4
+            ],
+            [
+                255,
+                106,
+                0
+            ],
+            [
+                255,
+                0,
+                0
+            ]
+        ]
+    },
+    "BlueCube15": {
+        "cords": [
+            1317,
+            392
+        ],
+        "layer": 37,
+        "moveable": true,
+        "size": [
+            39,
+            39
+        ],
+        "src": "Elements//BlueCube15.png",
+        "state": 0,
+        "state_colour": [
+            [
+                252,
+                221,
+                4
+            ],
+            [
+                255,
+                106,
+                0
+            ],
+            [
+                255,
+                0,
+                0
+            ]
+        ]
+    },
+    "BlueCube16": {
+        "cords": [
+            1283,
+            373
+        ],
+        "layer": 38,
+        "moveable": true,
+        "size": [
+            39,
+            39
+        ],
+        "src": "Elements//BlueCube16.png",
+        "state": 0,
+        "state_colour": [
+            [
+                252,
+                219,
+                4
+            ],
+            [
+                255,
+                106,
+                0
+            ],
+            [
+                255,
+                0,
+                0
+            ]
+        ]
+    },
+    "BlueCube2": {
+        "cords": [
+            1103,
+            290
+        ],
+        "layer": 18,
+        "moveable": true,
+        "size": [
+            39,
+            39
+        ],
+        "src": "Elements//BlueCube2.png",
+        "state": 0,
+        "state_colour": [
+            [
+                252,
+                218,
+                4
+            ],
+            [
+                255,
+                106,
+                0
+            ],
+            [
+                255,
+                0,
+                0
+            ]
+        ]
+    },
+    "BlueCube3": {
+        "cords": [
+            1103,
+            358
+        ],
+        "layer": 22,
+        "moveable": true,
+        "size": [
+            39,
+            39
+        ],
+        "src": "Elements//BlueCube3.png",
+        "state": 0,
+        "state_colour": [
+            [
+                252,
+                221,
+                4
+            ],
+            [
+                255,
+                106,
+                0
+            ],
+            [
+                255,
+                0,
+                0
+            ]
+        ]
+    },
+    "BlueCube4": {
+        "cords": [
+            1103,
+            431
+        ],
+        "layer": 21,
+        "moveable": true,
+        "size": [
+            39,
+            39
+        ],
+        "src": "Elements//BlueCube4.png",
+        "state": 0,
+        "state_colour": [
+            [
+                252,
+                221,
+                4
+            ],
+            [
+                255,
+                106,
+                0
+            ],
+            [
+                255,
+                0,
+                0
+            ]
+        ]
+    },
+    "BlueCube5": {
+        "cords": [
+            1103,
+            499
+        ],
+        "layer": 20,
+        "moveable": true,
+        "size": [
+            39,
+            39
+        ],
+        "src": "Elements//BlueCube5.png",
+        "state": 0,
+        "state_colour": [
+            [
+                252,
+                218,
+                4
+            ],
+            [
+                255,
+                106,
+                0
+            ],
+            [
+                255,
+                0,
+                0
+            ]
+        ]
+    },
+    "BlueCube6": {
+        "cords": [
+            1103,
+            572
+        ],
+        "layer": 19,
+        "moveable": true,
+        "size": [
+            39,
+            39
+        ],
+        "src": "Elements//BlueCube6.png",
+        "state": 0,
+        "state_colour": [
+            [
+                252,
+                218,
+                4
+            ],
+            [
+                255,
+                106,
+                0
+            ],
+            [
+                255,
+                0,
+                0
+            ]
+        ]
+    },
+    "BlueCube7": {
+        "cords": [
+            1351,
+            392
+        ],
+        "layer": 29,
+        "moveable": true,
+        "size": [
+            39,
+            39
+        ],
+        "src": "Elements//BlueCube7.png",
+        "state": 0,
+        "state_colour": [
+            [
+                252,
+                220,
+                4
+            ],
+            [
+                255,
+                106,
+                0
+            ],
+            [
+                255,
+                0,
+                0
+            ]
+        ]
+    },
+    "BlueCube8": {
+        "cords": [
+            1317,
+            407
+        ],
+        "layer": 30,
+        "moveable": true,
+        "size": [
+            39,
+            39
+        ],
+        "src": "Elements//BlueCube8.png",
+        "state": 0,
+        "state_colour": [
+            [
+                252,
+                218,
+                4
+            ],
+            [
+                255,
+                106,
+                0
+            ],
+            [
+                255,
+                0,
+                0
+            ]
+        ]
+    },
+    "BlueCube9": {
+        "cords": [
+            1317,
+            373
+        ],
+        "layer": 31,
+        "moveable": true,
+        "size": [
+            39,
+            39
+        ],
+        "src": "Elements//BlueCube9.png",
+        "state": 0,
+        "state_colour": [
+            [
+                252,
+                218,
+                4
+            ],
+            [
+                255,
+                106,
+                0
+            ],
+            [
+                255,
+                0,
+                0
+            ]
+        ]
+    },
+    "BlueExchangeZone": {
+        "cords": [
+            1541,
+            436
+        ],
+        "layer": 15,
+        "moveable": false,
+        "size": [
+            95,
+            136
+        ],
+        "src": "Elements//BlueExchangeZone.png",
+        "state": 0,
+        "state_colour": [
+            [
+                252,
+                4,
+                220
+            ]
+        ]
+    },
+    "BluePlatform": {
+        "cords": [
+            879,
+            236
+        ],
+        "layer": 9,
+        "moveable": false,
+        "size": [
+            107,
+            351
+        ],
+        "src": "Elements//BluePlatform.png",
+        "state": 0,
+        "state_colour": [
+            [
+                4,
+                36,
+                252
+            ]
+        ]
+    },
+    "BlueStack": {
+        "cords": [
+            1284,
+            348
+        ],
+        "layer": 16,
+        "moveable": false,
+        "size": [
+            116,
+            127
+        ],
+        "src": "Elements//BlueStack.png",
+        "state": 0,
+        "state_colour": [
+            [
+                124,
+                252,
+                252
+            ]
+        ]
+    },
+    "BlueSwitchZone": {
+        "cords": [
+            981,
+            236
+        ],
+        "layer": 3,
+        "moveable": false,
+        "size": [
+            160,
+            350
+        ],
+        "src": "Elements//BlueSwitchZone.png",
+        "state": 0,
+        "state_colour": [
+            [
+                124,
+                252,
+                252
+            ]
+        ]
+    },
+    "BlueTerritory": {
+        "cords": [
+            1327,
+            0
+        ],
+        "layer": 11,
+        "moveable": false,
+        "size": [
+            309,
+            823
+        ],
+        "src": "Elements//BlueTerritory.png",
+        "state": 0,
+        "state_colour": [
+            [
+                4,
+                20,
+                124
+            ]
+        ]
+    },
+    "NeutralZone": {
+        "cords": [
+            304,
+            0
+        ],
+        "layer": 2,
+        "moveable": false,
+        "size": [
+            1027,
+            823
+        ],
+        "src": "Elements//NeutralZone.png",
+        "state": 0,
+        "state_colour": [
+            [
+                132,
+                132,
+                140
+            ]
+        ]
+    },
+    "NullLand": {
+        "cords": [
+            723,
+            0
+        ],
+        "layer": 5,
+        "moveable": false,
+        "size": [
+            190,
+            823
+        ],
+        "src": "Elements//NullLand.png",
+        "state": 0,
+        "state_colour": [
+            [
+                180,
+                4,
+                252
+            ]
+        ]
+    },
+    "RedCube1": {
+        "cords": [
+            494,
+            212
+        ],
+        "layer": 23,
+        "moveable": true,
+        "size": [
+            39,
+            39
+        ],
+        "src": "Elements//RedCube1.png",
+        "state": 0,
+        "state_colour": [
+            [
+                252,
+                220,
+                4
+            ],
+            [
+                255,
+                106,
+                0
+            ],
+            [
+                255,
+                0,
+                0
+            ]
+        ]
+    },
+    "RedCube2": {
+        "cords": [
+            494,
+            290
+        ],
+        "layer": 24,
+        "moveable": true,
+        "size": [
+            39,
+            39
+        ],
+        "src": "Elements//RedCube2.png",
+        "state": 0,
+        "state_colour": [
+            [
+                252,
+                218,
+                4
+            ],
+            [
+                255,
+                106,
+                0
+            ],
+            [
+                255,
+                0,
+                0
+            ]
+        ]
+    },
+    "RedCube3": {
+        "cords": [
+            494,
+            358
+        ],
+        "layer": 25,
+        "moveable": true,
+        "size": [
+            39,
+            39
+        ],
+        "src": "Elements//RedCube3.png",
+        "state": 0,
+        "state_colour": [
+            [
+                252,
+                220,
+                4
+            ],
+            [
+                255,
+                106,
+                0
+            ],
+            [
+                255,
+                0,
+                0
+            ]
+        ]
+    },
+    "RedCube4": {
+        "cords": [
+            494,
+            431
+        ],
+        "layer": 26,
+        "moveable": true,
+        "size": [
+            39,
+            39
+        ],
+        "src": "Elements//RedCube4.png",
+        "state": 0,
+        "state_colour": [
+            [
+                252,
+                220,
+                4
+            ],
+            [
+                255,
+                106,
+                0
+            ],
+            [
+                255,
+                0,
+                0
+            ]
+        ]
+    },
+    "RedCube5": {
+        "cords": [
+            494,
+            499
+        ],
+        "layer": 27,
+        "moveable": true,
+        "size": [
+            39,
+            39
+        ],
+        "src": "Elements//RedCube5.png",
+        "state": 0,
+        "state_colour": [
+            [
+                252,
+                218,
+                4
+            ],
+            [
+                255,
+                106,
+                0
+            ],
+            [
+                255,
+                0,
+                0
+            ]
+        ]
+    },
+    "RedCube6": {
+        "cords": [
+            494,
+            572
+        ],
+        "layer": 28,
+        "moveable": true,
+        "size": [
+            39,
+            39
+        ],
+        "src": "Elements//RedCube6.png",
+        "state": 0,
+        "state_colour": [
+            [
+                252,
+                218,
+                4
+            ],
+            [
+                255,
+                106,
+                0
+            ],
+            [
+                255,
+                0,
+                0
+            ]
+        ]
+    },
+    "RedExchangeZone": {
+        "cords": [
+            0,
+            251
+        ],
+        "layer": 13,
+        "moveable": false,
+        "size": [
+            95,
+            136
+        ],
+        "src": "Elements//RedExchangeZone.png",
+        "state": 0,
+        "state_colour": [
+            [
+                252,
+                4,
+                220
+            ]
+        ]
+    },
+    "RedPlatform": {
+        "cords": [
+            650,
+            236
+        ],
+        "layer": 10,
+        "moveable": false,
+        "size": [
+            107,
+            351
+        ],
+        "src": "Elements//RedPlatform.png",
+        "state": 0,
+        "state_colour": [
+            [
+                4,
+                36,
+                252
+            ]
+        ]
+    },
+    "RedStack": {
+        "cords": [
+            236,
+            348
+        ],
+        "layer": 14,
+        "moveable": false,
+        "size": [
+            117,
+            127
+        ],
+        "src": "Elements//RedStack.png",
+        "state": 0,
+        "state_colour": [
+            [
+                124,
+                252,
+                252
+            ]
+        ]
+    },
+    "RedSwitchZone": {
+        "cords": [
+            494,
+            236
+        ],
+        "layer": 4,
+        "moveable": false,
+        "size": [
+            161,
+            351
+        ],
+        "src": "Elements//RedSwitchZone.png",
+        "state": 0,
+        "state_colour": [
+            [
+                124,
+                252,
+                252
+            ]
+        ]
+    },
+    "RedTerritory": {
+        "cords": [
+            0,
+            0
+        ],
+        "layer": 12,
+        "moveable": false,
+        "size": [
+            309,
+            823
+        ],
+        "src": "Elements//RedTerritory.png",
+        "state": 0,
+        "state_colour": [
+            [
+                4,
+                20,
+                124
+            ]
+        ]
+    },
+    "Scale": {
+        "cords": [
+            752,
+            178
+        ],
+        "layer": 8,
+        "moveable": false,
+        "size": [
+            132,
+            467
+        ],
+        "src": "Elements//Scale.png",
+        "state": 0,
+        "state_colour": [
+            [
+                4,
+                124,
+                12
+            ]
+        ]
+    },
+    "SwitchBlue": {
+        "cords": [
+            1137,
+            212
+        ],
+        "layer": 6,
+        "moveable": false,
+        "size": [
+            151,
+            399
+        ],
+        "src": "Elements//SwitchBlue.png",
+        "state": 0,
+        "state_colour": [
+            [
+                4,
+                124,
+                12
+            ]
+        ]
+    },
+    "SwitchRed": {
+        "cords": [
+            348,
+            212
+        ],
+        "layer": 7,
+        "moveable": false,
+        "size": [
+            151,
+            399
+        ],
+        "src": "Elements//SwitchRed.png",
+        "state": 0,
+        "state_colour": [
+            [
+                4,
+                124,
+                12
+            ]
+        ]
+    }
+}

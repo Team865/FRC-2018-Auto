@@ -97,7 +97,24 @@ class Path:
 			
 			pointData["distance"] = distance
 			totalDistance += distance
-			pointData["methods"] = [
+			pointData["slowStop"] = False
+			pointData["startMethods"] = [
+				{"name":"print",
+					"args":[
+					   "hello",
+					   "world"
+					]
+				}
+			]
+			pointData["endMethods"] = [
+				{"name":"print",
+					"args":[
+					   "hello",
+					   "world"
+					]
+				}
+			]
+			pointData["scaledMethods"] = [
 				{"name":"print",
 					"args":[
 					   "hello",
