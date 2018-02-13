@@ -74,6 +74,7 @@ class Path:
 		return None 
 	
 	def exportPath(self, fName):
+		print("Exporting...")
 		data = []
 		totalDistance=0.0;
 		n = 1/1000000
@@ -109,6 +110,7 @@ class Path:
 		exportedPath = {"data": data, "description": "describes the auto", "sides": "LLL", "totalDistance":totalDistance}
 		with open(fName, 'w') as f:
 			f.write(json.dumps(exportedPath, sort_keys=True, indent=4))
+		print("Done!")
 		
 class Point:
 	def __init__(self,cords,size,path):
