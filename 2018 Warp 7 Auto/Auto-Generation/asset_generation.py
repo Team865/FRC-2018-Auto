@@ -136,7 +136,7 @@ def generate_assets(elementConfig):
 		
 def write_config(fName,objects):
 	with open(directoryConfig+fName, 'w') as f:
-		json.dump(objects,f)
+		json.dump(objects, f, sort_keys=True, indent=4)
 
 def main():
 	pdnfile = 'pdn/FieldGameLayers1px-1cm.pdn'

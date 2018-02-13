@@ -12,12 +12,12 @@
                 }
             ],
             "point": [
-                1286,
-                215
+                944,
+                252
             ]
         },
         {
-            "distance": 394.0203040453626,
+            "distance": 265.24328455212583,
             "methods": [
                 {
                     "args": [
@@ -28,12 +28,12 @@
                 }
             ],
             "point": [
-                1282,
-                609
+                689,
+                179
             ]
         },
         {
-            "distance": 143.0314650697531,
+            "distance": 200.0024999843752,
             "methods": [
                 {
                     "args": [
@@ -44,12 +44,12 @@
                 }
             ],
             "point": [
-                1139,
-                606
+                613,
+                364
             ]
         },
         {
-            "distance": 389.0,
+            "distance": 282.8780656042458,
             "methods": [
                 {
                     "args": [
@@ -60,12 +60,12 @@
                 }
             ],
             "point": [
-                1139,
-                217
+                871,
+                480
             ]
         },
         {
-            "distance": 147.00340132119393,
+            "distance": 471.7806693793208,
             "methods": [
                 {
                     "args": [
@@ -76,12 +76,92 @@
                 }
             ],
             "point": [
-                1286,
+                1262,
                 216
+            ]
+        },
+        {
+            "distance": 156.0,
+            "methods": [
+                {
+                    "args": [
+                        "hello",
+                        "world"
+                    ],
+                    "name": "print"
+                }
+            ],
+            "point": [
+                1118,
+                156
+            ]
+        },
+        {
+            "distance": 269.6683147868878,
+            "methods": [
+                {
+                    "args": [
+                        "hello",
+                        "world"
+                    ],
+                    "name": "print"
+                }
+            ],
+            "point": [
+                854,
+                101
+            ]
+        },
+        {
+            "distance": 492.9462445338234,
+            "methods": [
+                {
+                    "args": [
+                        "hello",
+                        "world"
+                    ],
+                    "name": "print"
+                }
+            ],
+            "point": [
+                418,
+                331
+            ]
+        },
+        {
+            "distance": 198.22462006521792,
+            "methods": [
+                {
+                    "args": [
+                        "hello",
+                        "world"
+                    ],
+                    "name": "print"
+                }
+            ],
+            "point": [
+                396,
+                528
+            ]
+        },
+        {
+            "distance": 495.19794022188745,
+            "methods": [
+                {
+                    "args": [
+                        "hello",
+                        "world"
+                    ],
+                    "name": "print"
+                }
+            ],
+            "point": [
+                882,
+                623
             ]
         }
     ],
     "description": "describes the auto",
     "sides": "LLL",
-    "totalDistance": 1073.0551704363097
+    "totalDistance": 2831.941639127884
 }

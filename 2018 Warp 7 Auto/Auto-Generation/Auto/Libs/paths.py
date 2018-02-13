@@ -109,7 +109,7 @@ class Path:
 		
 		exportedPath = {"data": data, "description": "describes the auto", "sides": "LLL", "totalDistance":totalDistance}
 		with open(fName, 'w') as f:
-			f.write(json.dumps(exportedPath, sort_keys=True, indent=4))
+			json.dump(exportedPath, f, sort_keys=True, indent=4)
 		print("Done!")
 		
 class Point:
